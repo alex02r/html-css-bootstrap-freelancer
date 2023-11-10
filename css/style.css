@@ -6,8 +6,11 @@
 
 header{
     height: 100px;
-    background-color: aqua;
+    background-color: #2C3E50;
 }
 .content{
     background-color: red;
+}
+.bg_green{
+    background-color: #1ABC9C;
 }
