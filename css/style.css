@@ -14,3 +14,8 @@ header{
 .bg_green{
     background-color: #1ABC9C;
 }
+.item{
+    height: 200px;
+    text-align: center;
+    background-color: aquamarine;
+}
