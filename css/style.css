@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 100px;
+    background-color: aqua;
+}
+.content{
+    background-color: red;
+}
