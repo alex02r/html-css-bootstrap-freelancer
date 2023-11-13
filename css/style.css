@@ -37,6 +37,36 @@ header{
     font-size: 18px;
 }
 
+.my_hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+.my_hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+}
+.my_hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+}
+.my_hr-white::before, .my_hr-white::after {
+    background: white;
+}
+.my_hr-black::before, .my_hr-black::after{
+    background-color: black;
+}
 .my_form{
     display: flex;
     flex-direction: column;
