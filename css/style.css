@@ -26,19 +26,23 @@ header{
     gap: 20px;
 }
 
-
-.content{
-    background-color: red;
-}
 .jumbo, .about{
     background-color: #1ABC9C;
 }
+.list-jumbo{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
 .item{
     height: 200px;
     text-align: center;
     background-color: aquamarine;
 }
-
 
 .top-footer{
     background-color: #3A546D;
