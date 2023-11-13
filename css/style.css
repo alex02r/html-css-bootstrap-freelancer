@@ -10,6 +10,23 @@ header{
     display: flex;
     align-items: center;
 }
+.my_menu{
+    float: right;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: lightgray;
+}
+.list-header{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+
 .content{
     background-color: red;
 }
