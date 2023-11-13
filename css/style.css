@@ -37,6 +37,20 @@ header{
     font-size: 18px;
 }
 
+.my_form{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.my_form input, textarea{
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    margin: 10px 0;
+}
+.my_form label{
+    margin-top: 20px;
+}
 
 .top-footer{
     background-color: #3A546D;
