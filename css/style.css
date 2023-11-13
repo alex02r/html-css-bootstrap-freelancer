@@ -22,9 +22,10 @@ header{
     background-color: aquamarine;
 }
 
-footer{
-    background-color: #2C3E50;
-}
-.bg_footer_light{
+
+.top-footer{
     background-color: #3A546D;
+}
+.bottom-footer{
+    background-color: #2C3E50;
 }
