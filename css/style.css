@@ -6,6 +6,9 @@
 
 header{
     background-color: #2C3E50;
+    height: 75px;
+    display: flex;
+    align-items: center;
 }
 .content{
     background-color: red;
