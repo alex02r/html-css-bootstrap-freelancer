@@ -13,7 +13,7 @@ header{
 .content{
     background-color: red;
 }
-.bg_green{
+.jumbo, .about{
     background-color: #1ABC9C;
 }
 .item{
